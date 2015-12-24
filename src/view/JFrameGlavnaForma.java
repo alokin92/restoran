@@ -175,7 +175,7 @@ public class JFrameGlavnaForma extends javax.swing.JFrame {
         jPanel1.add(jLabelKonobar);
         jLabelKonobar.setBounds(770, 60, 100, 100);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Nikola\\Desktop\\plan2.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/view/plan2.jpg"))); // NOI18N
         jLabel1.setToolTipText("");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(0, 0, 890, 460);

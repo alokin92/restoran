@@ -108,6 +108,8 @@ String s="";
         }
         JOptionPane.showMessageDialog(this, "Uspesno logovanje!");
         new JFrameGlavnaForma(jTextFieldKorisnik.getText()).setVisible(true);
+        this.setVisible(false);
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
